@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="App.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyAnt.cpp">
+      <Filter>Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemySpawner.cpp">
+      <Filter>Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyWorm.cpp">
+      <Filter>Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="AppleEnemy.cpp">
+      <Filter>Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Bush.cpp">
+      <Filter>Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>App\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>App\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>App\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>PointVector2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>PointVector2d</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionSystem.cpp">
+      <Filter>CollisonSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="FPS.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="WormBlock.cpp">
+      <Filter>Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>App\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioSystem.cpp">
+      <Filter>App\AudioSystem</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyAnt.h">
+      <Filter>Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemySpawner.h">
+      <Filter>Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyWorm.h">
+      <Filter>Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="AppleEnemy.h">
+      <Filter>Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Bush.h">
+      <Filter>Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>App\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonStates.h">
+      <Filter>App\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>App\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>App\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>PointVector2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>PointVector2d</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionDirection.h">
+      <Filter>CollisonSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionSystem.h">
+      <Filter>CollisonSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="FPS.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="WormBlock.h">
+      <Filter>Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteSheet.h">
+      <Filter>App\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>App\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioSystem.h">
+      <Filter>App\AudioSystem</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="App">
+      <UniqueIdentifier>{3000af58-8215-4800-862b-8b646ed7cf24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enemy">
+      <UniqueIdentifier>{07e7accd-14d7-4832-bb39-4908f36654c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Input">
+      <UniqueIdentifier>{e040783d-e6dc-4e3b-996e-18672fac1eab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Player">
+      <UniqueIdentifier>{f102a069-b9c1-46d4-b6a3-e7fa5b9cdb74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PointVector2d">
+      <UniqueIdentifier>{6f3844b3-0dcb-450f-9d00-3a9ec752d376}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CollisonSystem">
+      <UniqueIdentifier>{6eaa17bd-8193-48b0-a2f2-e8f2dcc86e23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Textures">
+      <UniqueIdentifier>{f99d3f1b-38be-408b-ad01-80693290d049}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\AudioSystem">
+      <UniqueIdentifier>{07c56fc5-25f2-4ea7-ab48-135ce214bd82}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
